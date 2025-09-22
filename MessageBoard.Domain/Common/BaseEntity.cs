@@ -8,9 +8,11 @@ namespace MessageBoard.Domain.Common
 {
     public class BaseEntity
     {
-        public string? CreatedBy { get; set; }
+        public string CreatedByUsername { get; set; }
+        public Guid CreatedById { get; set; }
         public DateTime CreatedDate { get; set; }
-        public string? LastModifiedBy { get; set; }
+        public string? LastModifiedByUsername { get; set; }
+        public Guid LastModifiedById { get; set; }
         public DateTime? LastModifiedDate { get; set; }
     }
 }

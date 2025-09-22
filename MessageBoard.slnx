@@ -5,6 +5,10 @@
     <Project Path="MessageBoard.Domain/MessageBoard.Domain.csproj" />
   </Folder>
   <Folder Name="/src/Infrastructure/" />
-  <Folder Name="/src/UI/" />
-  <Folder Name="/test/" />
+  <Folder Name="/src/UI/">
+    <Project Path="MessageBoard.UI.Console/MessageBoard.UI.Console.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="MessageBoard.Application.UnitTests/MessageBoard.Application.UnitTests.csproj" />
+  </Folder>
 </Solution>
