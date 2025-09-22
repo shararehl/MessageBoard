@@ -39,3 +39,5 @@ Moonshot
 Charlie follows Moonshot
 Charlie wall
 
+# AI usage
+AI was used to generate README File
